@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghazi's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar .nav-link {
+            color: #fff;
+        }
+        .hero-section {
+            background-color: #343a40;
+            color: #fff;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero-section img {
+            border: 4px solid #fff;
+        }
+        .skills-section, .contact-section {
+            padding: 4rem 2rem;
+        }
+        .portfolio-section {
+            background-color: #e9ecef;
+            padding: 4rem 2rem;
+        }
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fa-solid fa-house"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills"><i class="fa-solid fa-wrench"></i> Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <img src="gz.jpg" alt="Profile Picture" class="rounded-circle mb-3" width="150" height="150">
+        <h1 class="mb-3">Hello, I'm Ghazi Fadhlullah</h1>
+        <p class="lead">A passionate Web Designer & Developer</p>
+        <a href="#portfolio" class="btn btn-dark"><i class="fa-solid fa-briefcase"></i> View Portfolio</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-code fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">HTML & CSS</h5>
+                            <p>Proficient in creating responsive and accessible web layouts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa-brands fa-java fa-3x mb-3 text-warning"></i>
+                            <h5 class="card-title">Java</h5>
+                            <p>Experience in object-oriented programming and algorithms.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa-brands fa-python fa-3x mb-3 text-success"></i>
+                            <h5 class="card-title">Python</h5>
+                            <p>Skilled in data analysis and scripting using Python.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="portfolio" class="container my-5">
+      <h3 class="text-center mb-4" style="font-family: 'Poppins', sans-serif; font-weight: bold;">Portfolio</h3>
+      <div class="row d-flex align-items-stretch">
+          <div class="col-md-4">
+              <div class="card p-4 h-100">
+                  <h5 class="card-title" style="font-family: 'Poppins', sans-serif;">
+                      <i class="fa-solid fa-code me-2" style="color: #007bff;"></i> 
+                      Basic Java Program
+                  </h5>
+                  <p class="card-text" style="font-family: 'Roboto', sans-serif;">
+                      A fundamental java program focusing on the core principles of object-oriented programming (OOP). 
+                      This program introduces essential concepts like classes, objects, methods, inheritance, and polymorphism. 
+                      It helps in understanding Java's syntax and logic, providing a solid foundation for creating more complex applications. 
+                      By mastering basic Java programming, you can build a variety of applications ranging from simple calculators to more advanced systems.
+                  </p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card p-4 h-100">
+                  <h5 class="card-title" style="font-family: 'Poppins', sans-serif;">
+                      <i class="fa-solid fa-laptop-code me-2" style="color: #28a745;"></i> 
+                      Personal Website
+                  </h5>
+                  <p class="card-text" style="font-family: 'Roboto', sans-serif;">
+                      A responsive personal website designed with HTML, CSS, and Bootstrap 5. 
+                      Showcases my skills and portfolio through a clean and modern interface with user-friendly navigation.
+                  </p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card p-4 h-100">
+                  <h5 class="card-title" style="font-family: 'Poppins', sans-serif;">
+                      <i class="fa-solid fa-chart-bar me-2" style="color: #ffc107;"></i> 
+                      Data Visualization
+                  </h5>
+                  <p class="card-text" style="font-family: 'Roboto', sans-serif;">
+                      Created insightful visualizations with Python (Matplotlib, Seaborn) and Tableau. 
+                      Used these tools to analyze and present data trends effectively, aiding decision-making.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark"><i class="fa-solid fa-paper-plane"></i> Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Ghazi Fadhlullah | Built with <i class="fa-solid fa-heart text-danger"></i> using Bootstrap & FontAwesome</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
